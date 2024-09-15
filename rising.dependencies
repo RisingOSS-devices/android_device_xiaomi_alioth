@@ -21,7 +21,7 @@
     "remote"      : "github",
     "repository"  : "Cunyuk-Hubs/android_kernel_xiaomi_sm8250",
     "target_path" : "kernel/xiaomi/sm8250",
-    "branch"      : "lineage-21"
+    "branch"      : "lineage-20"
   },
   {
     "remote"      : "github",
