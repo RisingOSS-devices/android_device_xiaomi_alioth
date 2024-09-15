@@ -14,6 +14,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
+# Rising Stuff
+RISING_MAINTAINER=erwinabs
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_MAINTAINER="Erwin Abs
+
 PRODUCT_NAME := lineage_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
